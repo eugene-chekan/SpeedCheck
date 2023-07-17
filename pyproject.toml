@@ -3,12 +3,19 @@ name = "speedcheck"
 version = "0.1.0"
 description = "A simple Internet speed monitoring application with a client-server architecture."
 authors = ["Eugene Chekan <eugene.chekan@gmail.com>"]
-license = "Apache License 2.0"
+license = "Apache-2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 speedtest-cli = "^2.1.3"
+
+[tool.poetry.group.dependencies]
+black = "^23.7.0"
+ruff = "^0.0.278"
+mypy = "^1.4.1"
+bandit = "^1.7.5"
+pre-commit = "^3.3.3"
 
 
 [build-system]
