@@ -29,3 +29,8 @@ This allows the user to monitor and track changes in their Internet connection s
 
 Clone this repository and follow the instructions in the README files within the client and server folders to
 set up and run the application.
+
+### Setting up the development environment
+
+To set up the project for development follow the instructions in the repository `wiki` page.
+https://github.com/eugene-chekan/SpeedCheck/wiki
